@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <h1>Form</h1>
+    <form action="post">
+      <div>
+        <label for="username">Enter your Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          autofocus
+        />
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="new" name="select" value="yes" />
+        <label for="new">HTML beginner</label>
+      </div>
+      <div>
+        <label for="comment">Enter your comment</label>
+        <br />
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+      </div>
+
+      <div>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="orange" selected>Orange</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
+
+<!-- 
+
+<form>: Form.
+It is used to collect user input. The <form> element wraps all the input elements and can include attributes like method (GET or POST) and action.
+    where acton post specifies where to send the form-data when a form is submitted
+
+<div>: Division
+    It is a container that is used to group elements for styling purposes (using CSS) or because they share attribute values.
+
+<label>: Label
+    It is used to define a label for an <input> element. The label is associated with the input field using the "for" attribute, which should match the "id" of the input.
+
+<input>: Input field.
+    It is used to create interactive controls in a web form that users can use to enter data. The type attribute specifies the kind of input (text, radio, checkbox, etc.).
+
+<textarea>: Text area.
+    It is used for multi-line text input. It allows users to enter larger amounts of text, such as comments or messages.
+
+<select>: Dropdown list.
+    It is used to create a drop-down list of options from which the user can select one. The <option> elements define the individual options within the <select>.
+
+<option>: Options within a <select> or <datalist>.
+    It defines an option in a dropdown list or a datalist. Each <option> can have a value and display text.
+
+<button>: Button.
+    It is used to create a clickable button. It can be used to submit forms or trigger actions when clicked.
+
+-->
