@@ -69,7 +69,10 @@ html-basics-for-webdev/
 ├── 06-semantic-html/
 ├── assets/
 └── README.md
-🎯 Who Is This For?
+
+
+# 🎯 Who Is This For?
+
 This project is perfect for:
 
 💻 Beginners learning front-end development
@@ -79,34 +82,35 @@ This project is perfect for:
 📚 Anyone revisiting HTML fundamentals
 
 🚀 Getting Started
+
 To view the examples:
 
-Clone the repository:
+1. Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/Magartej/html-basics-for-webdev
-Open any .html file in your browser or text editor to explore the content interactively.
+
+2. Open any .html file in your browser or text editor to explore the content interactively.
 
 🙌 Contributions
+
 Contributions are welcome! If you'd like to:
 
-Fix bugs
-
-Improve examples
-
-Add more content
+. Fix bugs
+. Improve examples
+. Add more content
 
 Feel free to fork the repo and submit a pull request.
 
 📩 Contact
+
 Created with 💙 by Tejendra Magar
 
 🔗 LinkedIn
+
 📬 Suggestions and feedback are always welcome!
 
 📜 License
+
 This project is licensed under the MIT License.
 
 pgsql
@@ -115,10 +119,4 @@ Edit
 
 ---
 
-### ✅ Next Steps
-- Add screenshots to the `assets/` folder.
-- Save browser previews as `.png` or `.jpg` and name them clearly (e.g., `table-example.png`).
-- Commit the updated `README.md` and image files to your repository.
-
-Would you like me to generate sample screenshots from your HTML files or show you how
 ```
