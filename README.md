@@ -113,10 +113,5 @@ Created with 💙 by Tejendra Magar
 
 This project is licensed under the MIT License.
 
-pgsql
-Copy
-Edit
-
 ---
-
 ```
